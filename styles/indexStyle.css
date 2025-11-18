@@ -1,0 +1,119 @@
+html{
+      overflow-x: hidden;
+
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.selected {
+    color: #8b5cf6;
+}
+
+.left-section:hover .nav-title {
+    text-decoration: underline;
+}
+
+.right-section a.selected {
+    color: #8b5cf6 !important;
+}
+
+
+.right-section a {
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.right-section a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 40px;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    gap: 0px;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 600px;
+    color: #cfcfcf;
+}
+
+.left-block {
+    max-width: 600px;
+}
+
+.right-block {
+    max-width: 500px;
+    margin-top: 100px; 
+}
+
+.right-description {
+    color: #cfcfcf;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.tagline-inline {
+    font-size: 42px;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.tagline-inline span {
+    font-size: 24px;  
+    font-weight: 700;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #cfcfcf;
+}

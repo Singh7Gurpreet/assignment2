@@ -1,0 +1,26 @@
+
+.poster-wrapper {
+  width: min(90vw, 1200px);
+  border: 2px solid #444;
+  border-radius: 16px;
+  padding: 20px;
+  width:50vw;
+  height: 50vh;
+  margin: 40px auto;
+  background: radial-gradient(circle at top, #111 0, #050510 60%);
+}
+.poster-wrapper {
+  margin: 40px auto;   /* top-bottom spacing + horizontal centering */
+}
+
+
+.poster {
+  width: 100%;
+  display: block;
+}
+
+.poster-title {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}

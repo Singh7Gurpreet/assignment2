@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeFace Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/indexStyle.css">
+    <link rel="stylesheet" href="styles/naturalHabitat.css">
+</head>
+<body>
+
+       <nav class="navbar">
+        <a href="index.html" class="left-section">
+    <div class="logo"></div>
+    <span class="nav-title">JetBrains Mono</span>
+</a>
+
+        <div class="right-section">
+            <a href="naturalHabitat.html" class ="selected">Natural Habitat</a>
+            <a href="favouriteCharacter.html">Favourite Character</a>
+            <a href="typeAsImage.html">As Image</a>
+        </div>
+    </nav>
+<div class ="code_terminal_wrapper">
+    <div class="code-block">
+<span class="kw">How do I look in VS CODE?</span>   
+<span class="kw">def</span> <span class="fn">do_favourite_things</span>():
+    <span class="fn">print</span>(<span class="str">"Type your favourite thing that you love to do"</span>)
+
+<span class="kw">def</span> <span class="fn">live_happily</span>():
+    <span class="fn">be_expressive</span>()
+    <span class="fn">be_kind</span>()
+    <span class="fn">be_weird_in_your_own_ways</span>()
+    <span class="fn">believe_in_yourself</span>()
+    <span class="fn">do_favourite_things</span>()
+
+<span class="kw">def</span> <span class="fn">life</span>():
+    <span class="kw">while</span> <span class="fn">heart_is_beating</span>():
+        <span class="fn">live_happily</span>()
+</div>
+
+<!-- Terminal Block -->
+<div class="terminal">
+<pre>
+<span class="prompt">What about Terminal?</span>
+<span class="prompt">$</span> pwd
+/home/void/Desktop
+<span class="prompt">$</span> ls
+Documents  images  notes.txt  project
+<span class="prompt">$</span> mkdir test
+<span class="prompt">$</span> ls
+Documents  images  notes.txt  project  test
+<span class="prompt">$</span> touch hello.py
+<span class="prompt">$</span> ls
+Documents  hello.py  images  notes.txt  project  test
+<span class="prompt">$</span> cd test
+<span class="prompt">$</span> pwd
+/home/void/Desktop/test
+<span class="prompt">$</span> cd ..
+<span class="prompt">$</span> pwd
+/home/void/Desktop
+<span class="prompt">$</span> rm hello.py
+<span class="prompt">$</span> ls
+Documents  images  notes.txt  project  test
+<span class="prompt">$</span> rm -r test
+<span class="prompt">$</span> ls
+Documents  images  notes.txt  project
+<span class="prompt">$</span> curl https://emotions.com/happy
+{
+  "status": "success",
+  "message": "You seem happy today 😊",
+  "code": 200
+}
+</pre>
+</div>
+</div>
+
+<div class = "log_xcode_wrapper">
+<div class="log-terminal">
+<pre>
+<span class="info">Alright! How about Logs?</span>
+<span class="ts">2025-11-18T04:12:55.229Z</span> <span class="svc">[gateway-node-3]</span> <span class="warn">WARN</span> inbound request jitter detected: Δ=492ms
+<span class="ts">2025-11-18T04:12:55.731Z</span> <span class="svc">[auth-service]</span> <span class="err">ERROR</span> token validation failed: 
+    <span class="json">{"user":"void","reason":"expired","issued_at":1731908321}</span>
+
+<span class="ts">2025-11-18T04:12:56.004Z</span> <span class="svc">[replica-2]</span> <span class="warn">WARN</span> stale heartbeat received from replica-5 (lag=21842ms)
+<span class="ts">2025-11-18T04:12:56.322Z</span> <span class="svc">[storage-shard-7]</span> <span class="err">ERROR</span> corrupted write-ahead log segment: 
+    <span class="json">{"segment":"wal-0031","offset":912381,"expected_crc":"0xA9F3","actual_crc":"0x71BD"}</span>
+
+<span class="ts">2025-11-18T04:12:56.998Z</span> <span class="svc">[queue-router]</span> <span class="info">INFO</span> retrying delivery... attempt(4)
+<span class="ts">2025-11-18T04:12:57.140Z</span> <span class="svc">[scheduler]</span> <span class="warn">WARN</span> backpressure triggered, dropping low-priority task id=74218
+<span class="ts">2025-11-18T04:12:57.601Z</span> <span class="svc">[ingest-node-1]</span> <span class="err">ERROR</span> failed to parse incoming event: 
+    <span class="json">{"event":"metrics.push","payload":"&lt;binary corrupted&gt;","node":"ingest-node-1"}</span>
+</pre>
+</div>
+
+<div class="xcode-code">
+<span class="keyword">Okay! Last one, Xcode?</span>
+<span class="keyword">int</span> <span class="function">main</span>() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    <span class="type">long long</span> power = <span class="number">1</span>;
+    <span class="keyword">for</span> (<span class="type">int</span> core = <span class="number">0</span>; core < <span class="number">64</span>; ++core) {
+        power <<= <span class="number">1</span>; <span class="comment">// double the power, bit by bit</span>
+    }
+
+    cout << <span class="string">"Bare metal online.\n"</span>;
+    cout << <span class="string">"Raw power unlocked: "</span> << power << <span class="string">" cycles.\n"</span>;
+    cout << <span class="string">"Only legends may proceed.\n"</span>;
+
+    <span class="keyword">return</span> <span class="number">0</span>;
+}
+</div>
+</div>
+
+
+</body>
+</html>

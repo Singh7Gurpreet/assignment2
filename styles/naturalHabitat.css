@@ -1,0 +1,148 @@
+.code-block {
+    background: #1e1e1ea0;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    color: #d4d4d4;
+    font-size: 16px;
+    white-space: pre;
+    overflow-x: auto;
+    width: 550px;
+}
+
+/* Keywords like def, while */
+.kw {
+    color: #569CD6;
+    font-weight: 600;
+}
+
+/* Function names */
+.fn {
+    color: #DCDCAA;
+}
+
+/* Strings */
+.str {
+    color: #CE9178;
+}
+
+.terminal {
+    background-color: #111827;        /* dark background */
+    color: #e5e7eb;                   /* light grey text */
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    width: 700px;
+    margin-top: 40px;
+    border: 1px solid #374151;
+}
+
+/* Make sure formatting stays like real terminal */
+.terminal pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+/* Green $ prompt */
+.prompt {
+    color: #22c55e;   /* green */
+    font-weight: 600;
+}
+
+.code_terminal_wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.log-terminal {
+    background-color: #0f172a; /* dark navy (same as your terminal) */
+    color: #e5e7eb;
+    padding: 20px;
+    width: 900px;
+    border-radius: 12px;
+    margin-top: 30px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    border: 1px solid #1e293b;
+    white-space: pre-wrap;
+}
+
+/* Timestamp */
+.ts {
+    color: #64748b; /* slate gray */
+}
+
+/* Service name */
+.svc {
+    color: #38bdf8; /* sky blue */
+}
+
+/* Levels */
+.warn {
+    color: #facc15; /* yellow */
+    font-weight: 600;
+}
+
+.err {
+    color: #f87171; /* red */
+    font-weight: 700;
+}
+
+.info {
+    color: #34d399; /* greenish */
+    font-weight: 600;
+}
+
+/* Highlight JSON */
+.json {
+    color: #93c5fd; /* soft blue */
+    font-weight: 600;
+    margin-left: 20px;
+    display: block;
+}
+
+.xcode-code {
+    background: #1e1e1e;               /* Xcode dark theme */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Menlo", "Consolas", monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: pre;                  /* preserves original code formatting */
+    overflow-x: auto;
+}
+
+/* Syntax colors */
+.keyword {
+    color: #c792ea; /* purple - Xcode style keywords */
+}
+
+.type {
+    color: #82aaff; /* light blue */
+}
+
+.function {
+    color: #ffcb6b; /* soft yellow */
+}
+
+.string {
+    color: #c3e88d; /* green */
+}
+
+.comment {
+    color: #616161; /* gray */
+    font-style: italic;
+}
+
+.number {
+    color: #f78c6c; /* orange */
+}
+
+.log_xcode_wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

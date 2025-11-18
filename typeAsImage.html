@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeFace Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/indexStyle.css" />
+    <link rel="stylesheet" href="styles/typeAsImage.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html" class="left-section">
+        <div class="logo"></div>
+        <span class="nav-title">JetBrains Mono</span>
+      </a>
+      <div class="right-section">
+        <a href="naturalHabitat.html" class="selected">Natural Habitat</a>
+        <a href="favouriteCharacter.html">Favourite Character</a>
+        <a href="typeAsImage.html">As Image</a>
+      </div>
+    </nav>
+    <div class="poster-wrapper">
+      <svg
+        class="poster"
+        viewBox="0 0 1200 400"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <pattern
+            id="gibberishFill"
+            x="0"
+            y="0"
+            width="0.2"
+            height="0.15"
+            patternUnits="objectBoundingBox"
+          >
+            <text
+              x="0"
+              y="20"
+              font-size="18"
+              font-family="JetBrains Mono"
+              fill="#0ff"
+            >
+              asdKJH439 &lt;>_+=#)( qweZXC 991 !!
+            </text>
+            <text
+              x="0"
+              y="40"
+              font-size="18"
+              font-family="JetBrains Mono"
+              fill="#0ff"
+            >
+              01ab!! %$@^ (){}[] 777 zxcVB QQQ
+            </text>
+            <text
+              x="0"
+              y="60"
+              font-size="18"
+              font-family="JetBrains Mono"
+              fill="#0ff"
+            >
+              <>?:;; **&& 1101 CODE## RAW_PWR
+            </text>
+          </pattern>
+        </defs>
+        <rect x="0" y="0" width="1200" height="400" fill="#050510" />
+        <text
+          class="poster-title"
+          x="50%"
+          y="52%"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          font-size="120"
+          fill="url(#gibberishFill)"
+        >
+          CODING IS FUN
+        </text>
+      </svg>
+    </div>
+  </body>
+</html>
