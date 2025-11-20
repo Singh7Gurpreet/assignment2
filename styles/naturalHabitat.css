@@ -7,10 +7,10 @@
     font-size: 16px;
     white-space: pre;
     overflow-x: auto;
-    width: 550px;
+    width: 600px;
 }
 
-/* Keywords like def, while */
+
 .kw {
     color: #569CD6;
     font-weight: 600;
@@ -27,8 +27,8 @@
 }
 
 .terminal {
-    background-color: #111827;        /* dark background */
-    color: #e5e7eb;                   /* light grey text */
+    background-color: #111827;        
+    color: #e5e7eb;                   
     padding: 20px;
     border-radius: 8px;
     font-family: "JetBrains Mono", monospace;
@@ -38,15 +38,13 @@
     border: 1px solid #374151;
 }
 
-/* Make sure formatting stays like real terminal */
 .terminal pre {
     margin: 0;
     white-space: pre-wrap;
 }
 
-/* Green $ prompt */
 .prompt {
-    color: #22c55e;   /* green */
+    color: #22c55e;  
     font-weight: 600;
 }
 
@@ -56,7 +54,7 @@
 }
 
 .log-terminal {
-    background-color: #0f172a; /* dark navy (same as your terminal) */
+    background-color: #0f172a;
     color: #e5e7eb;
     padding: 20px;
     width: 900px;
@@ -79,7 +77,6 @@
     color: #38bdf8; /* sky blue */
 }
 
-/* Levels */
 .warn {
     color: #facc15; /* yellow */
     font-weight: 600;
@@ -95,7 +92,6 @@
     font-weight: 600;
 }
 
-/* Highlight JSON */
 .json {
     color: #93c5fd; /* soft blue */
     font-weight: 600;
@@ -104,24 +100,24 @@
 }
 
 .xcode-code {
-    background: #1e1e1e;               /* Xcode dark theme */
+    background: #1e1e1e;         
     color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     font-family: "Menlo", "Consolas", monospace;
     font-size: 14px;
     line-height: 1.6;
-    white-space: pre;                  /* preserves original code formatting */
+    white-space: pre;                 
     overflow-x: auto;
 }
 
-/* Syntax colors */
+
 .keyword {
-    color: #c792ea; /* purple - Xcode style keywords */
+    color: #c792ea;
 }
 
 .type {
-    color: #82aaff; /* light blue */
+    color: #82aaff; 
 }
 
 .function {
