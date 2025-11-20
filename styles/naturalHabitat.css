@@ -1,3 +1,7 @@
+*{
+    font-family: "JetBrains Mono", monospace;
+}
+
 .code-block {
     background: #1e1e1ea0;
     padding: 20px;
@@ -7,6 +11,7 @@
     font-size: 16px;
     white-space: pre;
     overflow-x: auto;
+    
     width: 600px;
 }
 
